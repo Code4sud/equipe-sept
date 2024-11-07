@@ -16,6 +16,9 @@ spec:
     spec:
       containers:
         - name: $PROJECT_NAME
+          args:
+            - node
+            - app.js
           image: $IMAGE
           ports:
             - containerPort: 80
