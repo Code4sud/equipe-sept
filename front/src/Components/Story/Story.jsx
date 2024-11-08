@@ -7,11 +7,11 @@ function Story({ theme }) {
 
   const getRequest = () => {
     if (theme === "inondation") {
-      return "http://localhost:5000/api/inondation";
+      return "/api/inondation";
     } else if (theme === "seisme") {
-      return "http://localhost:5000/api/seisme";
+      return "/api/seisme";
     } else if (theme === "tsunami") {
-      return "http://localhost:5000/api/tsunami";
+      return "/api/tsunami";
     }
   };
 
